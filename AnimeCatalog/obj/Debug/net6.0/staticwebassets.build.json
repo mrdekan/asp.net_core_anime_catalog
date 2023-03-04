@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1uKQ3Yrgwg52FZcKyZsS4YMNNKservR0uzxcehFu3ts=",
+  "Hash": "qlEiaebE32PcwYqfaxvHQLUAwMKPx7V4T6/VxgBqJf0=",
   "Source": "AnimeCatalog",
   "BasePath": "_content/AnimeCatalog",
   "Mode": "Default",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\img\\userBlack.png",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "img/userBlack.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\userBlack.png"
+    },
+    {
+      "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\img\\userWhite.png",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "img/userWhite.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\userWhite.png"
     },
     {
       "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\js\\site.js",
