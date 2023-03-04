@@ -1,0 +1,121 @@
+﻿@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/*@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+*/
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    transition: 0.1s;
+    color: black;
+
+    & a {
+        color: black;
+        font-size: 18px;
+    }
+
+    & h2 {
+        font-size: 25px;
+        font-weight: 700;
+
+        & span {
+            background-color: hotpink;
+            color: white;
+            border-radius: 5px;
+            padding: 3px 5px;
+        }
+    }
+
+    & ul {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+}
+.header-nav {
+    display: flex;
+    gap: 20px;
+}
+.header-right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & input {
+        border-radius: 4px;
+        border: 1px solid #25282e;
+        padding: 6px;
+        font-size: 16px;
+    }
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.login-button {
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    appearance: none;
+    background-color: #25282e;
+    margin: 0;
+    font: inherit;
+    color: black;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 0.15em;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    margin-right: -8px;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-color: #fff;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.dark-mode {
+    background-color: #25282e;
+    transition: 0.1s;
+    color: white;
+}
+
+.dark-mode a {
+    color: white;
+}
+
+.dark-mode span {
+    color: #25282e;
+}
+
+.dark-mode input[type="text"] {
+    background-color: #25282e;
+    color: white;
+    border: 1px solid white;
+}
