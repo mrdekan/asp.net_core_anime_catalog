@@ -47,7 +47,8 @@
 
     & .wrapper {
         background-color: #25282e;
-        & .line{
+
+        & .line {
             background-color: white;
         }
     }
@@ -58,5 +59,11 @@
 
     & .poster {
         color: white;
+        background-color: #2f333b;
+        &:hover {
+            -webkit-box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
+            -moz-box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
+            box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
+        }
     }
 }

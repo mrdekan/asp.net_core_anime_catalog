@@ -13,6 +13,20 @@
                 <div class="line"></div>
                 <p>@Model.Description</p>
                 <div class="line"></div>
+				<p>@Model.Id</p>
+                @if (Model.SeeasonsAndSeries!=""){
+                string[] arr = @Model.SeeasonsAndSeries.Split(' ');
+                int season = 1;
+                    foreach(var element in arr)
+                    {
+                        <h4>@season</h4>
+                        season++;
+                        for(int i = 1; i <= int.Parse(element); i++){
+                        <button class="series-button">@i</button>
+                        }
+                    }
+                }
+				
             </div>
             
         </div>

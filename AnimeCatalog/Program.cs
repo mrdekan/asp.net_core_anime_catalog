@@ -1,10 +1,22 @@
+using AnimeCatalog.Data;
+using AnimeCatalog.Interfaces;
+using AnimeCatalog.Repository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<IAnimeRepository, AnimeRepository>();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 var app = builder.Build();
-
+if(args.Length == 1 && args[0].ToLower() == "seeddata")
+{
+    Seed.SeedData(app);
+}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

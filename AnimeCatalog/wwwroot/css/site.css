@@ -118,6 +118,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .dark-mode .poster {
   color: white;
+  background-color: #2f333b;
+}
+.dark-mode .poster:hover {
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
+  box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
 }
 
 html {
@@ -307,17 +313,29 @@ footer a {
 .section {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  column-gap: 35px;
+  row-gap: 10px;
   justify-content: start;
 }
 
 .poster {
-  width: 210px;
+  width: 238px;
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-bottom: 12px;
   color: black;
+  background-color: #ebf0fa;
+  padding: 14px;
+  border-radius: 10px;
+}
+.poster:hover {
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
+  box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
+}
+.poster img {
+  border-radius: 10px;
 }
 .poster h4 {
   font-size: 20px;
@@ -335,6 +353,12 @@ footer a {
   height: 20px;
   width: 20px;
   z-index: 10;
+}
+
+.series-button {
+  height: 20px;
+  width: 30px;
+  display: inline-block;
 }
 
 .info-block h3 {
