@@ -1,0 +1,51 @@
+﻿.dark-mode {
+    background-color: #21242a;
+    color: white;
+
+    & header {
+        background-color: #25282e;
+        color: white;
+    }
+
+    & a {
+        color: white;
+    }
+
+    & h2 {
+        & span {
+            color: #25282e;
+        }
+    }
+
+    & input[type="text"] {
+        background-color: #25282e;
+        color: white;
+        border: 1px solid white;
+
+        &::placeholder {
+            color: white;
+            opacity: 0.9;
+        }
+    }
+
+    & .login-button {
+        &::after {
+            opacity: 1;
+        }
+    }
+
+    & .search-button {
+        background-color: #25282e;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+
+        &::before {
+            background: url('/img/searchWhite.png') 0 0/100% 100% no-repeat;
+        }
+    }
+
+    & footer {
+        background-color: #25282e;
+    }
+}

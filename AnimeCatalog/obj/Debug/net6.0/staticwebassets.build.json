@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qlEiaebE32PcwYqfaxvHQLUAwMKPx7V4T6/VxgBqJf0=",
+  "Hash": "48whKCbVI0YzNMRFa0eMDxG+sBNlVfCkK7yyitqA7BE=",
   "Source": "AnimeCatalog",
   "BasePath": "_content/AnimeCatalog",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AnimeCatalog.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\css\\dark.scss",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "css/dark.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dark.scss"
     },
     {
       "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\css\\nullstyle.scss",
@@ -134,6 +151,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\img\\searchBlack.png",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "img/searchBlack.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\searchBlack.png"
+    },
+    {
+      "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\img\\searchWhite.png",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "img/searchWhite.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\searchWhite.png"
     },
     {
       "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\img\\userBlack.png",

@@ -9,7 +9,7 @@
 <body>
     <header id="header">
         <div class="header-nav">
-            <h2>Ani<span>Hub</span></h2>
+            <h2>Some<span>club</span></h2>
             <ul>
                 <li>
                     <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
@@ -21,11 +21,12 @@
         </div>
         <div class="header-right-section">
             <form method="post">
-                <input type="text" value="" placeholder="Find anime" />
+                <input type="text" value="" placeholder="Search" />
+                <button type="submit" class="search-button"></button>
             </form>
             <a href="#" class="login-button">Login</a>
-                <input type="checkbox" id="theme"/>
-                <label for="theme">Dark</label>
+            <input type="checkbox" id="theme" />
+            <label for="theme" id="label-theme">Dark</label>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -33,7 +34,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer>
         <div class="container">
             &copy; 2023 - AnimeCatalog - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
@@ -41,7 +42,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    
+
     <script src="~/js/site.js"></script>
 </body>
 </html>
