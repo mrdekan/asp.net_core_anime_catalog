@@ -1,0 +1,20 @@
+﻿.info-block{
+    & h3{
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    &_main{
+        display: flex;
+        &_right{
+            padding: 20px;
+            & p{
+                font-size: 16px;
+                line-height: 19px;
+            }
+            & p::first-letter{
+                margin-left: 15px;
+            }
+        }
+    }
+}

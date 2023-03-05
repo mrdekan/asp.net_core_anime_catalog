@@ -1,4 +1,5 @@
 ﻿@import "nullstyle.scss";
+
 @import "dark.scss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
@@ -159,6 +160,7 @@ input[type="checkbox"] {
 
 footer{
     position: fixed;
+    z-index: 20;
     padding: 12px;
     bottom: 0;
     width:100%;
@@ -174,8 +176,8 @@ footer{
 }
 .wrapper {
     //margin: 0;
-    margin-left: 20%;   
-    width: 60%;
+    margin-left: 18%;   
+    width: 64%;
     min-height: 100vh;
     background-color: white;
     padding: 15px 25px;
@@ -186,7 +188,41 @@ footer{
     & .line{
         width: 100%;
         height: 2px;
-        margin: 5px 0;
+        margin: 5px 0 10px;
         background-color: #25282e;
     }
 }
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: start;
+}
+.poster {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 12px;
+    color: black;
+
+    & h4 {
+        font-size: 20px;
+        margin: 7px 0 7px;
+    }
+    & p{
+        display: flex;
+        align-items:center;
+    }
+    & p::before {
+        content: '';
+        display: block;
+        background: url('/img/star.png') 0 0/100% 100% no-repeat;
+        position: relative;
+        height: 20px;
+        width: 20px;
+        z-index: 10;
+    }
+}
+
+@import "detailpage.scss";

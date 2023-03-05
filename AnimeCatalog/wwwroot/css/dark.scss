@@ -45,7 +45,18 @@
         }
     }
 
+    & .wrapper {
+        background-color: #25282e;
+        & .line{
+            background-color: white;
+        }
+    }
+
     & footer {
         background-color: #25282e;
+    }
+
+    & .poster {
+        color: white;
     }
 }

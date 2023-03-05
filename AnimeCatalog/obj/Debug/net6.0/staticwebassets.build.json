@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "48whKCbVI0YzNMRFa0eMDxG+sBNlVfCkK7yyitqA7BE=",
+  "Hash": "KKwUJZmRBwVVaDylR3Qv7l5xjQAlZ7R5cPUhKSVlUMg=",
   "Source": "AnimeCatalog",
   "BasePath": "_content/AnimeCatalog",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dark.scss"
+    },
+    {
+      "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\css\\detailpage.scss",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "css/detailpage.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\detailpage.scss"
     },
     {
       "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\css\\nullstyle.scss",
@@ -185,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\searchWhite.png"
+    },
+    {
+      "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\img\\star.png",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "img/star.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\star.png"
     },
     {
       "Identity": "D:\\Code\\ASP.NET Core\\AnimeCatalog\\AnimeCatalog\\wwwroot\\img\\userBlack.png",
