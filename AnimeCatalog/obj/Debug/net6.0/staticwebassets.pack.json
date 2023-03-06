@@ -1,295 +1,291 @@
 {
   "Files": [
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AnimeCatalog.bundle.scp.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AnimeCatalog.bundle.scp.css",
       "PackagePath": "staticwebassets\\AnimeCatalog.bundle.scp.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\css\\dark.scss",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\dark.scss",
       "PackagePath": "staticwebassets\\css\\dark.scss"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\css\\detailpage.scss",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\detailpage.scss",
       "PackagePath": "staticwebassets\\css\\detailpage.scss"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\css\\nullstyle.scss",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\nullstyle.scss",
       "PackagePath": "staticwebassets\\css\\nullstyle.scss"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\css\\site.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\css\\site.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\site.min.css",
       "PackagePath": "staticwebassets\\css\\site.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\css\\site.scss",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\site.scss",
       "PackagePath": "staticwebassets\\css\\site.scss"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\favicon.ico",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\img\\arrow.png",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\img\\arrow.png",
       "PackagePath": "staticwebassets\\img\\arrow.png"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\img\\searchBlack.png",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\img\\searchBlack.png",
       "PackagePath": "staticwebassets\\img\\searchBlack.png"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\img\\searchWhite.png",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\img\\searchWhite.png",
       "PackagePath": "staticwebassets\\img\\searchWhite.png"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\img\\star.png",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\img\\star.png",
       "PackagePath": "staticwebassets\\img\\star.png"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\img\\userBlack.png",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\img\\userBlack.png",
       "PackagePath": "staticwebassets\\img\\userBlack.png"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\img\\userWhite.png",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\img\\userWhite.png",
       "PackagePath": "staticwebassets\\img\\userWhite.png"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\js\\itc-slider.min.js",
-      "PackagePath": "staticwebassets\\js\\itc-slider.min.js"
-    },
-    {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\js\\site.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

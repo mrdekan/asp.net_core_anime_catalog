@@ -10,10 +10,13 @@
 		{
 			var item = Model.ElementAt(i);
 			<a asp-controller="Anime" asp-action="Detail" asp-route-id=@item.Id class="poster">
-				<div>
+				<div class="poster_content">
 					<img src="@item.Image" width="100%" height="315" alt="Image" />
-					<h4>@item.Name</h4>
-					<p>@item.Mark/10</p>
+					<div>
+						<h4>@item.Name</h4>
+						<p>@item.Mark/10</p>
+						<span>@item.Description</span>
+					</div>
 				</div>
 			</a>
 		}
