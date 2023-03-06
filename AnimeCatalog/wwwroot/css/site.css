@@ -290,14 +290,15 @@ footer a {
 .container {
   width: 100%;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-  margin-left: 18%;
-  width: 64%;
+  width: 1220px;
   min-height: 100vh;
   background-color: white;
-  padding: 15px 25px;
+  padding: 15px 35px;
 }
 .wrapper h3 {
   font-size: 24px;
@@ -311,15 +312,15 @@ footer a {
 }
 
 .section {
-  display: flex;
+  gap: 10px;
+  width: 100%;
   flex-wrap: wrap;
-  column-gap: 35px;
-  row-gap: 10px;
-  justify-content: start;
+  padding: 10px;
+  display: flex;
 }
 
 .poster {
-  width: 238px;
+  min-width: 238px;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -355,12 +356,6 @@ footer a {
   z-index: 10;
 }
 
-.series-button {
-  height: 20px;
-  width: 30px;
-  display: inline-block;
-}
-
 .info-block h3 {
   font-size: 32px;
   font-weight: 400;
@@ -378,4 +373,25 @@ footer a {
 }
 .info-block_main_right p::first-letter {
   margin-left: 15px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.series-button {
+  padding: 7px;
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid #25282e;
+}
+
+.season {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }

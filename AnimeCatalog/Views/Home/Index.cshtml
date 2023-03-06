@@ -1,20 +1,21 @@
 ﻿@model IEnumerable<Anime>
 @{
-    //ViewData["Title"] = "Home Page";
+	//ViewData["Title"] = "Home Page";
 }
 <div class="wrapper">
-    <h3>Popular</h3>
-    <div class="line"></div>
-    <div class="section">
-        @for(int i =0; i<8; i++)
-        {
-            var item = Model.ElementAt(i);
-            <a asp-controller="Anime" asp-action="Detail" asp-route-id=@item.Id class="poster">
-            <div>
-                <img src="@item.Image" width="100%" height="315" alt="Image" />
-                <h4>@item.Name</h4>
-                <p>@item.Mark/10</p>
-            </div></a>
-        }
-    </div>
+	<h3>Popular</h3>
+	<div class="line"></div>
+	<div class="section">
+		@for (int i = 0; i < Model.Count(); i++)
+		{
+			var item = Model.ElementAt(i);
+			<a asp-controller="Anime" asp-action="Detail" asp-route-id=@item.Id class="poster">
+				<div>
+					<img src="@item.Image" width="100%" height="315" alt="Image" />
+					<h4>@item.Name</h4>
+					<p>@item.Mark/10</p>
+				</div>
+			</a>
+		}
+	</div>
 </div>

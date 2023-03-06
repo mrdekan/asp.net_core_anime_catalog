@@ -28,7 +28,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.3f,
 							Image = "https://m.media-amazon.com/images/M/MV5BYzIwMTc0MTktODVjYS00YmMzLWJmYzItNTc1ZjBiZDkyM2EwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
 							SeeasonsAndSeries = "12",
-						},
+							Tags = "short comedy everyday_life"
+                        },
 						new Anime()
 						{
 							Name = "Steins; Gate",
@@ -37,7 +38,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.3f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg",
 							SeeasonsAndSeries = "25 24",
-						},
+                            Tags = "drama fantastic thriller psychology"
+                        },
 						new Anime()
 						{
 							Name = "My hero academia",
@@ -46,7 +48,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.2f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png",
 							SeeasonsAndSeries = "13 25 25 25 25 22",
-						},
+                            Tags = "long adventures action school"
+                        },
 						new Anime()
 						{
 							Name = "Dagashi Kashi",
@@ -55,7 +58,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.3f,
 							Image = "https://m.media-amazon.com/images/M/MV5BYzIwMTc0MTktODVjYS00YmMzLWJmYzItNTc1ZjBiZDkyM2EwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
 							SeeasonsAndSeries = "12",
-						},
+                            Tags = "short comedy everyday_life"
+                        },
 						new Anime()
 						{
 							Name = "Steins; Gate",
@@ -64,7 +68,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.3f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg",
 							SeeasonsAndSeries = "25 24",
-						},
+                            Tags = "drama fantastic thriller psychology"
+                        },
 						new Anime()
 						{
 							Name = "My hero academia",
@@ -73,7 +78,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.2f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png",
 							SeeasonsAndSeries = "13 25 25 25 25 22",
-						},
+                            Tags = "long adventures action school"
+                        },
 						new Anime()
 						{
 							Name = "Dagashi Kashi",
@@ -82,7 +88,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.3f,
 							Image = "https://m.media-amazon.com/images/M/MV5BYzIwMTc0MTktODVjYS00YmMzLWJmYzItNTc1ZjBiZDkyM2EwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
 							SeeasonsAndSeries = "12",
-						},
+                            Tags = "short comedy everyday_life"
+                        },
 						new Anime()
 						{
 							Name = "Steins; Gate",
@@ -91,7 +98,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.3f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg",
 							SeeasonsAndSeries = "25 24",
-						},
+                            Tags = "drama fantastic thriller psychology"
+                        },
 						new Anime()
 						{
 							Name = "My hero academia",
@@ -100,7 +108,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.2f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png",
 							SeeasonsAndSeries = "13 25 25 25 25 22",
-						},
+                            Tags = "long adventures action school"
+                        },
 					});
 					context.SaveChanges();
 				}

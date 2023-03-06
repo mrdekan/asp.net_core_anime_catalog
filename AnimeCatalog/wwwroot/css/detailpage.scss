@@ -18,3 +18,21 @@
         }
     }
 }
+h4{
+    font-size: 18px;
+    margin: 12px 0;
+}
+.series-button {
+    padding: 7px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #25282e;
+}
+.season{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;   
+}

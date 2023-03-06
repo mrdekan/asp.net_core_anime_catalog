@@ -172,15 +172,14 @@ footer{
 .container{
     width:100%;
     min-height: 100%;
-    
+    display: flex;
+    justify-content: center;
 }
-.wrapper {
-    //margin: 0;
-    margin-left: 18%;   
-    width: 64%;
+.wrapper {  
+    width: 1220px;
     min-height: 100vh;
     background-color: white;
-    padding: 15px 25px;
+    padding: 15px 35px;
     & h3{
         font-size: 24px;
         font-weight: 600;
@@ -192,15 +191,15 @@ footer{
         background-color: #25282e;
     }
 }
-.section{
-    display: flex;
+.section {
+    gap: 10px;
+    width: 100%;
     flex-wrap: wrap;
-    column-gap: 35px;
-    row-gap: 10px;
-    justify-content: start;
+    padding: 10px;
+    display: flex;
 }
 .poster {
-    width: 238px;
+    min-width: 238px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -240,9 +239,5 @@ footer{
         z-index: 10;
     }
 }
-.series-button{
-    height: 20px;
-    width: 30px;
-    display: inline-block;
-}
+
 @import "detailpage.scss";

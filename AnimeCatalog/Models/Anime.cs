@@ -12,5 +12,6 @@ namespace AnimeCatalog.Models
         public float Mark { get; set; }
         public string Image { get; set; }
         public string SeeasonsAndSeries { get; set; }
+        public string Tags { get; set; }
     }
 }

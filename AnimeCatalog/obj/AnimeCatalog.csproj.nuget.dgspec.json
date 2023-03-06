@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\AnimeCatalog.csproj": {}
+    "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\AnimeCatalog.csproj": {}
   },
   "projects": {
-    "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\AnimeCatalog.csproj": {
+    "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\AnimeCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\AnimeCatalog.csproj",
+        "projectUniqueName": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\AnimeCatalog.csproj",
         "projectName": "AnimeCatalog",
-        "projectPath": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\AnimeCatalog.csproj",
+        "projectPath": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\AnimeCatalog.csproj",
         "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
-        "outputPath": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\obj\\",
+        "outputPath": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\animecatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
