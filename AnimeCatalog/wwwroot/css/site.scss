@@ -182,6 +182,12 @@ footer{
     & h3{
         font-size: 24px;
         font-weight: 600;
+        margin-bottom: 9px;
+        & span{
+            border: 1px solid #25282e;
+            padding: 2px 8px;
+            border-radius: 20px;
+        }
     }
     & .line{
         width: 100%;
@@ -208,7 +214,9 @@ footer{
     background-color: #ebf0fa;
     padding: 14px;
     border-radius: 10px;
-
+    & a{
+        color: black;
+    }
     &_content {
         display: flex;
     }
@@ -228,7 +236,7 @@ footer{
         margin-right: 15px;
     }
 
-    & h4 {
+    & .title {
         font-size: 20px;
         margin: 7px 0 7px;
     }
@@ -249,5 +257,16 @@ footer{
         z-index: 10;
     }
 }
-
+.tag {
+    border-radius: 50px;
+    padding: 2px 8px;
+    border: 1px solid #25282e;
+    color: #25282e;
+}
+.tags{
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
 @import "detailpage.scss";

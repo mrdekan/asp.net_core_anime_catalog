@@ -37,13 +37,15 @@ namespace AnimeCatalog.Repository
 		{
 			return await _context.Animes.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
 		}
-
 		public bool Save()
 		{
 			var saved = _context.SaveChanges();
 			return saved > 0 ? true : false;
 		}
-
+		public async Task<IEnumerable<Anime>> GetAnimeByTag(string tag)
+		{
+			return await _context.Animes.Where(c => c.Tags.Contains(tag)).ToListAsync();
+		}
 		public bool Update(Anime anime)
 		{
 			_context.Update(anime);
