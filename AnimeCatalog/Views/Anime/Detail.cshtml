@@ -13,7 +13,8 @@
 				<div class="line"></div>
 				<p>@Model.Description</p>
 				<div class="line"></div>
-				<p>@Model.Id</p>
+				<p>@Model.Views</p>
+				<a asp-controller="Anime" asp-action="Watched" asp-route-id=@Model.Id>Watched</a>
 			</div>
 		</div>
 	</div>

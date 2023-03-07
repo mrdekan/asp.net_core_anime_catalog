@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\code\ASP.NET Core\asp.net_core_anime_catalog\AnimeCatalog
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/code/ASP.NET Core/asp.net_core_anime_catalog/AnimeCatalog/Views/Anime/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/code/ASP.NET Core/asp.net_core_anime_catalog/AnimeCatalog/Views/Anime/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

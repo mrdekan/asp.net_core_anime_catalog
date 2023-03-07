@@ -513,3 +513,37 @@ h4 {
   gap: 5px;
   margin-bottom: 15px;
 }
+
+.create-wrapper {
+  border-radius: 20px;
+  margin-top: 40px;
+  width: 1220px;
+  background-color: white;
+  padding: 15px;
+  font-size: 16px;
+}
+.create-wrapper input {
+  padding: 4px 2px;
+}
+.create-wrapper input[type=file] {
+  background-color: white;
+}
+.create-wrapper .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+}
+.create-wrapper .form-group label {
+  margin-bottom: 3px;
+}
+.create-wrapper .form-group span {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.create-wrapper button {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #25282e;
+  background-color: inherit;
+}

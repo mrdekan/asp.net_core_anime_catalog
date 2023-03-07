@@ -1,15 +1,20 @@
 ﻿using AnimeCatalog.Interfaces;
 using AnimeCatalog.Models;
+using AnimeCatalog.Services;
+using AnimeCatalog.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace AnimeCatalog.Controllers
 {
     public class AnimeController : Controller
     {
 		private readonly IAnimeRepository _animeRepository;
-        public AnimeController(IAnimeRepository animeRepository)
+		private readonly IPhotoService _photoService;
+		public AnimeController(IAnimeRepository animeRepository, IPhotoService photoService)
         {
 			_animeRepository = animeRepository;
+			_photoService = photoService;
 		}
 		public IActionResult Index()
         {
@@ -38,6 +43,41 @@ namespace AnimeCatalog.Controllers
 			animesByName.Animes = animes;
 			animesByName.SearchRequest = name;
 			return View(animesByName);
+		}
+		public ActionResult Create() {
+			return View();
+		}
+		[HttpPost]
+		public async Task<IActionResult> Create(CreateAnimeViewModel animeVM)
+		{
+			if (ModelState.IsValid)
+			{
+				var result = await _photoService.AddPhotoAsync(animeVM.Image);
+				var anime = new Anime
+				{
+					Name = animeVM.Name,
+					Description = animeVM.Description,
+					Tags = animeVM.Tags,
+					SeeasonsAndSeries = animeVM.SeasonsAndSeries.Replace("_", " "),
+					Image = result.Url.ToString(),
+					Mark = 0,
+				};
+				_animeRepository.Add(anime);
+				return RedirectToAction("Index");
+			}
+			else
+			{
+				ModelState.AddModelError("", "Photo upload failed");
+			}
+			return View(animeVM);
+		}
+		public async Task<IActionResult> Watched(int id)
+		{
+			Anime anime = await _animeRepository.GetByIdAsyncNoTracking(id);
+			anime.Mark = (float)Math.Round(((anime.Views) * anime.Mark + 10) / (anime.Views + 1),1); 
+			anime.Views++;
+			_animeRepository.Update(anime);
+			return RedirectToAction("Index");
 		}
 	}
 }

@@ -9,10 +9,11 @@ namespace AnimeCatalog.ViewModels
 		public string Name { get; set; }
 		[Required]
 		public string Description { get; set; }
-		[RegularExpression(@"^[0-9]*$",
+		[RegularExpression("^[0-9_]+$",
 		 ErrorMessage = "Characters are not allowed.")]
 		public string SeasonsAndSeries { get; set; }
 		[Required]
 		public string Tags { get; set; }
+		public IFormFile Image { get; set; }
 	}
 }

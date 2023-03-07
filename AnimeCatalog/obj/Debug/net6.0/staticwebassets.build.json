@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z1kdEK+cn3i0lNWhqu/6Uj6FypYsapcFH9SsPM0U5+4=",
+  "Hash": "jtjxYB3IOp9KJMZm7Kp/lIdrVuuNQMcKvUeRwQSv4to=",
   "Source": "AnimeCatalog",
   "BasePath": "_content/AnimeCatalog",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AnimeCatalog.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\createpage.scss",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "css/createpage.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\createpage.scss"
     },
     {
       "Identity": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\dark.scss",

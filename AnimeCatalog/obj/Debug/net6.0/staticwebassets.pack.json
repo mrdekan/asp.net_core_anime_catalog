@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AnimeCatalog.bundle.scp.css"
     },
     {
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\createpage.scss",
+      "PackagePath": "staticwebassets\\css\\createpage.scss"
+    },
+    {
       "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\css\\dark.scss",
       "PackagePath": "staticwebassets\\css\\dark.scss"
     },
