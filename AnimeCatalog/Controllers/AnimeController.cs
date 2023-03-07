@@ -10,7 +10,6 @@ namespace AnimeCatalog.Controllers
         public AnimeController(IAnimeRepository animeRepository)
         {
 			_animeRepository = animeRepository;
-
 		}
 		public IActionResult Index()
         {
@@ -30,6 +29,17 @@ namespace AnimeCatalog.Controllers
 			animesByTag.Animes = animes;
 			animesByTag.Tags = tag;
 			return View(animesByTag);
+		}
+		[HttpPost]
+		public async Task<IActionResult> Search(string name)
+		{
+			if (name==null)
+				return RedirectToAction("Index", "Home");
+			var animes = await _animeRepository.GetAnimeByName(name);
+			AnimesBySearch animesByName = new AnimesBySearch();
+			animesByName.Animes = animes;
+			animesByName.SearchRequest = name;
+			return View(animesByName);
 		}
 	}
 }

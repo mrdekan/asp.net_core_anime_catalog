@@ -86,12 +86,12 @@ h1, h2, h3, h4, h5, h6 {
 .dark-mode h2 span {
   color: #25282e;
 }
-.dark-mode input[type=text] {
+.dark-mode .search-field {
   background-color: #25282e;
   color: white;
   border: 1px solid white;
 }
-.dark-mode input[type=text]::placeholder {
+.dark-mode .search-field::placeholder {
   color: white;
   opacity: 0.9;
 }
@@ -439,6 +439,10 @@ footer a {
   margin-left: 15px;
 }
 
+.series {
+  margin-top: 15px;
+}
+
 h4 {
   font-size: 18px;
   margin: 12px 0;
@@ -458,4 +462,5 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  margin-bottom: 15px;
 }

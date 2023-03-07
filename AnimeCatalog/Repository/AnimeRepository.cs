@@ -53,6 +53,10 @@ namespace AnimeCatalog.Repository
 			}
 			return animes;
 		}
+		public async Task<IEnumerable<Anime>> GetAnimeByName(string name)
+		{
+			return await _context.Animes.Where(c => c.Name.Contains(name)).ToListAsync();
+		}
 		public bool Update(Anime anime)
 		{
 			_context.Update(anime);

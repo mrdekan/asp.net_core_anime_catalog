@@ -39,8 +39,13 @@
 								@foreach (string temp in arr)
 								{
 									string tagsStr = Model.Tags;
-									if (!Model.Tags.Contains(temp)) tagsStr += " " + temp;
-									<a asp-controller="Anime" asp-action="Tag" asp-route-tag=@tagsStr class="tag">@temp.Replace("_", " ")</a>
+									tagsStr += " " + temp;
+									if (!Model.Tags.Contains(temp)){
+										<a asp-controller="Anime" asp-action="Tag" asp-route-tag=@tagsStr class="tag">@temp.Replace("_", " ")</a>
+									}
+									else{
+										<a asp-controller="Anime" asp-action="Tag" asp-route-tag=@tagsStr class="tag" style="pointer-events: none">@temp.Replace("_", " ")</a>
+									}
 								}
 							</div>
 						}

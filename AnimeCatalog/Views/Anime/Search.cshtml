@@ -1,0 +1,37 @@
+﻿@model AnimesBySearch
+@{
+	//ViewData["Title"] = "Home Page";
+}
+<div class="wrapper">
+	<h3>Results for "@Model.SearchRequest":</h3>
+	<div class="line"></div>
+	<div class="section">
+		@if (Model.Animes.Count() == 0)
+		{
+			<h3>Nothing found</h3>
+		}
+		@for (int i = 0; i < Model.Animes.Count(); i++)
+		{
+			var item = Model.Animes.ElementAt(i);
+			<div class="poster">
+				<div class="poster_content">
+					<img src="@item.Image" width="100%" height="315" alt="Image" />
+					<div>
+						<a asp-controller="Anime" asp-action="Detail" asp-route-id=@item.Id class="title">@item.Name</a>
+						<p>@item.Mark/10</p>
+						<span>@item.Description</span>
+						@{
+							string[] arr = item.Tags.Split(' ');
+							<div class="tags">
+								@foreach (string temp in arr)
+								{
+									<a asp-controller="Anime" asp-action="Tag" asp-route-tag=@temp class="tag">@temp.Replace("_", " ")</a>
+								}
+							</div>
+						}
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+</div>

@@ -5,41 +5,50 @@
 @{
 }
 <div class="wrapper">
-    <div class="info-block">
-        <div class="info-block_main">
-            <img src=@Model.Image alt="Image" width="360" />
-            <div class="info-block_main_right">
-                <h3>@Model.Name</h3>
-                <div class="line"></div>
-                <p>@Model.Description</p>
-                <div class="line"></div>
+	<div class="info-block">
+		<div class="info-block_main">
+			<img src=@Model.Image alt="Image" width="360" />
+			<div class="info-block_main_right">
+				<h3>@Model.Name</h3>
+				<div class="line"></div>
+				<p>@Model.Description</p>
+				<div class="line"></div>
 				<p>@Model.Id</p>
-                
-				
-            </div>
-            
-        </div>
-    </div>
-    @{
-        string[] arr = @Model.SeeasonsAndSeries.Split(' ');
-        int season = 1;
-        foreach (var element in arr)
-        {
-            <h4>Season @season</h4>
-            season++;
-            <div class="season">
-            @for (int i = 1; i <= int.Parse(element); i++)
-            {
-                <a href="#" class="series-button">Series @i</a>
-            }
-            </div>
-        }
-    }
+
+
+			</div>
+
+		</div>
+	</div>
+	<div class="series">
+		@{
+			string[] arr = @Model.SeeasonsAndSeries.Split(' ');
+			int season = 1;
+			foreach (var element in arr)
+			{
+				if (arr.Length > 1)
+				{
+					if (season != 1)
+					{
+						<div class="line"></div>
+					}
+					<h4>Season @season</h4>
+				}
+				season++;
+				<div class="season">
+					@for (int i = 1; i <= int.Parse(element); i++)
+					{
+						<a href="#" class="series-button">Series @i</a>
+					}
+				</div>
+			}
+		}
+	</div>
 	<br />
 	<br />
-    <br />
-    <br />
-    <br />
-    <br />
+	<br />
+	<br />
+	<br />
+	<br />
 </div>
 
