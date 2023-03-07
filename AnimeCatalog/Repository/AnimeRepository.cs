@@ -2,6 +2,7 @@
 using AnimeCatalog.Interfaces;
 using AnimeCatalog.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace AnimeCatalog.Repository
 {
@@ -42,9 +43,15 @@ namespace AnimeCatalog.Repository
 			var saved = _context.SaveChanges();
 			return saved > 0 ? true : false;
 		}
-		public async Task<IEnumerable<Anime>> GetAnimeByTag(string tag)
+		public async Task<IEnumerable<Anime>> GetAnimeByTags(string tags)
 		{
-			return await _context.Animes.Where(c => c.Tags.Contains(tag)).ToListAsync();
+			string[] tagsArr = tags.Split(' ');
+			var animes = await _context.Animes.Where(c => c.Tags.Contains(tagsArr[0])).ToListAsync();
+			for(int i =1; i<tagsArr.Length; i++)
+			{
+				animes = animes.Where(c => c.Tags.Contains(tagsArr[i])).ToList();
+			}
+			return animes;
 		}
 		public bool Update(Anime anime)
 		{

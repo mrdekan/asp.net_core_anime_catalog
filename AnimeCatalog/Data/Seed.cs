@@ -48,8 +48,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.2f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png",
 							SeeasonsAndSeries = "13 25 25 25 25 22",
-                            Tags = "long adventures action school"
-                        },
+                            Tags = "long adventures action school fantastic"
+						},
 						new Anime()
 						{
 							Name = "Dagashi Kashi",
@@ -78,8 +78,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.2f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png",
 							SeeasonsAndSeries = "13 25 25 25 25 22",
-                            Tags = "long adventures action school"
-                        },
+                            Tags = "long adventures action school fantastic"
+						},
 						new Anime()
 						{
 							Name = "Dagashi Kashi",
@@ -108,8 +108,8 @@ namespace AnimeCatalog.Data
 							Mark = 9.2f,
 							Image = "https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png",
 							SeeasonsAndSeries = "13 25 25 25 25 22",
-                            Tags = "long adventures action school"
-                        },
+                            Tags = "long adventures action school fantastic"
+						},
 					});
 					context.SaveChanges();
 				}

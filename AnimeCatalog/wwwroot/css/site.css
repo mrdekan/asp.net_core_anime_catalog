@@ -307,8 +307,9 @@ footer a {
 }
 .wrapper h3 span {
   border: 1px solid #25282e;
-  padding: 2px 8px;
+  padding: 2px 8px 4px;
   border-radius: 20px;
+  font-weight: 300;
 }
 .wrapper .line {
   width: 100%;
@@ -385,6 +386,38 @@ footer a {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.delete-tag {
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  margin-bottom: -2px;
+}
+.delete-tag_circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #25282e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-tag_stick_l {
+  width: 1px;
+  height: 12px;
+  background-color: #25282e;
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 5;
+}
+.delete-tag_stick_r {
+  width: 1px;
+  height: 12px;
+  background-color: #25282e;
+  transform: rotate(135deg);
+  position: absolute;
+  z-index: 6;
 }
 
 .info-block h3 {

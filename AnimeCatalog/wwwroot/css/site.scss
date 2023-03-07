@@ -4,13 +4,16 @@
 
 
 $delay: 0.35s;
+
 html {
     font-family: 'Inter', sans-serif;
     height: 100%;
 }
+
 body {
     background-color: #ebf0fa;
 }
+
 header {
     padding: 15px 20px;
     display: flex;
@@ -42,10 +45,12 @@ header {
         gap: 10px;
         align-items: center;
     }
-    & form{
-        display:flex;
+
+    & form {
+        display: flex;
     }
 }
+
 .search-button {
     height: 34px;
     width: 34px;
@@ -54,7 +59,7 @@ header {
     border-top: 1px solid #25282e;
     border-right: 1px solid #25282e;
     border-bottom: 1px solid #25282e;
-    
+
     &::before {
         content: '';
         display: block;
@@ -66,10 +71,12 @@ header {
         z-index: 100000;
     }
 }
+
 .header-nav {
     display: flex;
     gap: 20px;
 }
+
 .header-right-section {
     display: flex;
     align-items: center;
@@ -80,7 +87,8 @@ header {
         border: 1px solid #25282e;
         padding: 6px;
         font-size: 16px;
-        &::placeholder{
+
+        &::placeholder {
             color: black;
             opacity: 0.7;
         }
@@ -91,7 +99,8 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
-    margin-left:5px;
+    margin-left: 5px;
+
     &::before {
         content: '';
         display: block;
@@ -113,9 +122,9 @@ header {
         width: 20px;
         opacity: 0;
         z-index: 100001;
-
     }
 }
+
 input[type="checkbox"] {
     -webkit-appearance: none;
     appearance: none;
@@ -157,45 +166,54 @@ input[type="checkbox"] {
     }
 }*/
 
-footer{
+footer {
     position: fixed;
     z-index: 20;
     padding: 12px;
     bottom: 0;
-    width:100%;
+    width: 100%;
     background-color: white;
-    & a{
+
+    & a {
         color: black;
     }
 }
-.container{
-    width:100%;
+
+.container {
+    width: 100%;
     min-height: 100%;
     display: flex;
     justify-content: center;
 }
-.wrapper {  
+
+.wrapper {
     width: 1220px;
     min-height: 100vh;
     background-color: white;
     padding: 15px 35px;
-    & h3{
+
+    & h3 {
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 9px;
-        & span{
+
+        & span {
             border: 1px solid #25282e;
-            padding: 2px 8px;
+            padding: 2px 8px 4px;
             border-radius: 20px;
+            font-weight: 300;
+    
         }
     }
-    & .line{
+
+    & .line {
         width: 100%;
         height: 2px;
         margin: 5px 0 10px;
         background-color: #25282e;
     }
 }
+
 .section {
     //gap: 10px;
     width: 100%;
@@ -203,6 +221,7 @@ footer{
     padding: 10px;
     //display: flex;
 }
+
 .poster {
     width: 100%;
     min-width: 238px;
@@ -214,9 +233,11 @@ footer{
     background-color: #ebf0fa;
     padding: 14px;
     border-radius: 10px;
-    & a{
+
+    & a {
         color: black;
     }
+
     &_content {
         display: flex;
     }
@@ -226,9 +247,11 @@ footer{
         -moz-box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
         box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
     }
-    & span{
+
+    & span {
         display: block;
     }
+
     & img {
         border-radius: 10px;
         width: 210px;
@@ -257,16 +280,54 @@ footer{
         z-index: 10;
     }
 }
+
 .tag {
     border-radius: 50px;
     padding: 2px 8px;
     border: 1px solid #25282e;
     color: #25282e;
 }
-.tags{
+
+.tags {
     margin-top: 10px;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
 }
+
+.delete-tag {
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    margin-bottom: -2px;
+
+    &_circle {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1px solid #25282e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_stick_l {
+        width: 1px;
+        height: 12px;
+        background-color: #25282e;
+        transform: rotate(45deg);
+        position: absolute;
+        z-index: 5;
+    }
+
+    &_stick_r {
+        width: 1px;
+        height: 12px;
+        background-color: #25282e;
+        transform: rotate(135deg);
+        position: absolute;
+        z-index: 6;
+    }
+}
+
 @import "detailpage.scss";

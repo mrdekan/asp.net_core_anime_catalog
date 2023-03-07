@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnimeCatalog.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230306094415_InitialCreate")]
+    [Migration("20230307063511_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

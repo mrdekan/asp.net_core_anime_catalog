@@ -10,7 +10,7 @@ namespace AnimeCatalog.Interfaces
 		bool Add(Anime club);
 		bool Update(Anime club);
 		bool Delete(Anime club);
-		Task<IEnumerable<Anime>> GetAnimeByTag(string tag);
+		Task<IEnumerable<Anime>> GetAnimeByTags(string tag);
 		bool Save();
 	}
 }

@@ -25,10 +25,10 @@ namespace AnimeCatalog.Controllers
 		[HttpGet]
 		public async Task<IActionResult> Tag(string tag)
 		{
-			var animes = await _animeRepository.GetAnimeByTag(tag);
+			var animes = await _animeRepository.GetAnimeByTags(tag);
 			AnimesByTag animesByTag = new AnimesByTag();
 			animesByTag.Animes = animes;
-			animesByTag.Tag = tag;
+			animesByTag.Tags = tag;
 			return View(animesByTag);
 		}
 	}
