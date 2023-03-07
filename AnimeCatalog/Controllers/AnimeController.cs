@@ -15,13 +15,11 @@ namespace AnimeCatalog.Controllers
         {
             return View();
         }
-        [HttpGet]
         public async Task<IActionResult> Detail(int id)
         {
             Anime anime = await _animeRepository.GetByIdAsync(id);
 			return View(anime);
         }
-		[HttpGet]
 		public async Task<IActionResult> Tag(string tag)
 		{
 			var animes = await _animeRepository.GetAnimeByTags(tag);

@@ -113,6 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 .dark-mode .wrapper .line {
   background-color: white;
 }
+.dark-mode .wrapper h3 span {
+  border: 1px solid white;
+}
 .dark-mode footer {
   background-color: #25282e;
 }
@@ -120,10 +123,34 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   background-color: #2f333b;
 }
+.dark-mode .poster a {
+  color: white;
+}
 .dark-mode .poster:hover {
   -webkit-box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
   -moz-box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
   box-shadow: 0px 0px 12px 0px rgba(166, 173, 186, 0.5);
+}
+.dark-mode .poster .image p {
+  background-color: #2f333b;
+}
+.dark-mode .tag {
+  border: 1px solid white;
+}
+.dark-mode .tag::before {
+  background-color: white;
+}
+.dark-mode .series-button {
+  border: 1px solid white;
+}
+.dark-mode .delete-tag_circle {
+  border: 1px solid white;
+}
+.dark-mode .delete-tag_stick_l {
+  background-color: white;
+}
+.dark-mode .delete-tag_stick_r {
+  background-color: white;
 }
 
 html {
@@ -303,11 +330,11 @@ footer a {
 .wrapper h3 {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 9px;
+  margin-bottom: 13px;
 }
 .wrapper h3 span {
   border: 1px solid #25282e;
-  padding: 2px 8px 4px;
+  padding: 2px 8px 4px 12px;
   border-radius: 20px;
   font-weight: 300;
 }
@@ -348,6 +375,30 @@ footer a {
 }
 .poster span {
   display: block;
+  margin-top: 8px;
+}
+.poster .image {
+  display: flex;
+  justify-content: end;
+}
+.poster .image p {
+  display: flex;
+  align-items: center;
+  margin: 8px 20px 0 0;
+  position: absolute;
+  z-index: 7;
+  background-color: white;
+  padding: 3px;
+  border-radius: 4px;
+}
+.poster .image p::before {
+  content: "";
+  display: block;
+  background: url("/img/star.png") 0 0/100% 100% no-repeat;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
 }
 .poster img {
   border-radius: 10px;
@@ -359,26 +410,24 @@ footer a {
   font-size: 20px;
   margin: 7px 0 7px;
 }
-.poster p {
-  display: flex;
-  align-items: center;
-  margin: 8px 0;
-}
-.poster p::before {
-  content: "";
-  display: block;
-  background: url("/img/star.png") 0 0/100% 100% no-repeat;
-  position: relative;
-  height: 20px;
-  width: 20px;
-  z-index: 10;
-}
 
 .tag {
   border-radius: 50px;
-  padding: 2px 8px;
+  padding: 4px 9px 5px;
   border: 1px solid #25282e;
   color: #25282e;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.tag::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #25282e;
+  border-radius: 50%;
+  margin-top: 2px;
 }
 
 .tags {

@@ -51,6 +51,12 @@
         & .line {
             background-color: white;
         }
+
+        & h3 {
+            & span {
+                border: 1px solid white;
+            }
+        }
     }
 
     & footer {
@@ -61,10 +67,44 @@
         color: white;
         background-color: #2f333b;
 
+        & a {
+            color: white;
+        }
+
         &:hover {
             -webkit-box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
             -moz-box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
             box-shadow: 0px 0px 12px 0px rgba(166,173,186,0.5);
         }
+
+        & .image {
+            & p {
+                background-color: #2f333b;
+            }
+        }
+    }
+
+    & .tag {
+        border: 1px solid white;
+
+        &::before {
+            background-color: white;
+        }
+    }
+
+    & .series-button {
+        border: 1px solid white;
+    }
+
+    & .delete-tag_circle {
+        border: 1px solid white;
+    }
+
+    & .delete-tag_stick_l {
+        background-color: white;
+    }
+
+    & .delete-tag_stick_r {
+        background-color: white;
     }
 }

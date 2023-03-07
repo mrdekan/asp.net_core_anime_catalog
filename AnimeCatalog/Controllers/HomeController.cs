@@ -18,15 +18,6 @@ namespace AnimeCatalog.Controllers
 
         public async Task<IActionResult> Index()
         {
-            /*Anime anime = new Anime();
-            anime.Name = "Dagashi kashi";
-            anime.Description = "Lorem ipsum";
-            anime.Id = 1;
-            anime.Views = 788;
-            anime.Mark = 9.3f;
-            anime.Image = "https://m.media-amazon.com/images/M/MV5BYzIwMTc0MTktODVjYS00YmMzLWJmYzItNTc1ZjBiZDkyM2EwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg";
-            List<Anime> animeList = new List<Anime>();
-            for(int i = 0; i <15; i ++) animeList.Add(anime);*/
             var animes = await _animeRepository.GetAll();
             return View(animes);
         }
