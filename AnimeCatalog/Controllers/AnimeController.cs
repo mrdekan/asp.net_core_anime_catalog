@@ -100,6 +100,7 @@ namespace AnimeCatalog.Controllers
 				Number= number,
 				AnimeId = anime.Id,
 				VideoURL = anime.SeriesURL,
+				LastInSeason = (number == int.Parse(anime.SeeasonsAndSeries.Split(' ')[season-1]))
 			};
             return View(series);
 		}

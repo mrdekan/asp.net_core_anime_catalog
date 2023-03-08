@@ -6,5 +6,6 @@
         public int Season { get; set; }
         public int AnimeId { get; set; }
         public string VideoURL { get; set; }
+        public bool LastInSeason { get; set; }
     }
 }

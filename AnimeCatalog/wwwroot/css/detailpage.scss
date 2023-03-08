@@ -41,7 +41,26 @@ h4 {
     color: black;
     border: 1px solid #25282e;
 }
-
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.series-navigate {
+    padding: 7px;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #25282e;
+}
+video{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 8px; 
+    align-self: center;
+}
 .season {
     display: flex;
     flex-wrap: wrap;
