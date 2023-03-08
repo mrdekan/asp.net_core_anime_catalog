@@ -7,7 +7,7 @@ To start the project, you will need a database and Cloudinary service for storin
 2. Create a free account on Cloudinary
 3. Create appsettings.json file and fill in the empty fields with your details (I added it to .gitignore as it contains the API-Secret from my Cloudinary)
 ```
-   {
+{
   "ConnectionStrings": {
     "DefaultConnection": "" //your connection to database string
   },
