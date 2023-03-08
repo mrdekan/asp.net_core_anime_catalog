@@ -90,16 +90,9 @@ namespace AnimeCatalog.Controllers
 		{
 			string[] arr = options.Split("__");
 			int number = 1, season = 1, Id=1;
-            /*try
-			{*/
-                number = int.Parse(arr[0]);
-				season = int.Parse(arr[1]);
-				Id = int.Parse(arr[2]);
-			/*}
-			catch(Exception ex)
-			{
-                return RedirectToAction("Detail", new { id = Id });
-            }*/
+            number = int.Parse(arr[0]);
+			season = int.Parse(arr[1]);
+			Id = int.Parse(arr[2]);
             Anime anime = await _animeRepository.GetByIdAsync(Id);
             Series series = new Series()
 			{
