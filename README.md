@@ -8,23 +8,23 @@ To start the project, you will need a database and Cloudinary service for storin
 3. Create appsettings.json file and fill in the empty fields with your details (I added it to .gitignore as it contains the API-Secret from my Cloudinary)
    - Template for appsettings.json file
 ```
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "" //your connection to database string
-  },
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "CloudinarySettings": {
-    "CloudName": "", //your Cloudname
-    "ApiKey": "", //your API-Key
-    "ApiSecret": "" //your API-Secret
-  },
-  "AllowedHosts": "*"
-}
+   {
+      "ConnectionStrings": {
+         "DefaultConnection": "" //your connection to database string
+      },
+      "Logging": {
+         "LogLevel": {
+            "Default": "Information",
+            "Microsoft.AspNetCore": "Warning"
+         }
+      },
+      "CloudinarySettings": {
+         "CloudName": "", //your Cloudname
+         "ApiKey": "", //your API-Key
+         "ApiSecret": "" //your API-Secret
+      },
+      "AllowedHosts": "*"
+   }
 ```
 4. Write next commands in Package Manage Console and PowerShell
    - Package Manager Console
