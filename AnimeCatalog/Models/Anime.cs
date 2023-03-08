@@ -13,5 +13,6 @@ namespace AnimeCatalog.Models
         public string Image { get; set; }
         public string SeeasonsAndSeries { get; set; }
         public string Tags { get; set; }
+        public string SeriesURL { get; set; }
     }
 }

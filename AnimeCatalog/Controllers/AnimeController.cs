@@ -22,7 +22,9 @@ namespace AnimeCatalog.Controllers
         }
         public async Task<IActionResult> Detail(int id)
         {
+			
             Anime anime = await _animeRepository.GetByIdAsync(id);
+
 			return View(anime);
         }
 		public async Task<IActionResult> Tag(string tag)
@@ -61,7 +63,8 @@ namespace AnimeCatalog.Controllers
 					SeeasonsAndSeries = animeVM.SeasonsAndSeries.Replace("_", " "),
 					Image = result.Url.ToString(),
 					Mark = 0,
-				};
+                    SeriesURL = "https://res.cloudinary.com/draodt7we/video/upload/v1678260940/file_example_MP4_640_3MG_wndezm.mp4",
+                };
 				_animeRepository.Add(anime);
 				return RedirectToAction("Index");
 			}
@@ -71,13 +74,41 @@ namespace AnimeCatalog.Controllers
 			}
 			return View(animeVM);
 		}
-		public async Task<IActionResult> Watched(int id)
+		public async Task<IActionResult> Watched(string rate)
 		{
-			Anime anime = await _animeRepository.GetByIdAsyncNoTracking(id);
-			anime.Mark = (float)Math.Round(((anime.Views) * anime.Mark + 10) / (anime.Views + 1),1); 
+			string[] arr = rate.Split('_');
+			int Id = int.Parse(arr[0]);
+			int mark = int.Parse(arr[1]);
+			if (mark > 10 || mark <= 0) return RedirectToAction("Detail", new { id = Id });
+			Anime anime = await _animeRepository.GetByIdAsyncNoTracking(Id);
+			anime.Mark = (float)(((anime.Views) * anime.Mark + mark) / (anime.Views + 1)); 
 			anime.Views++;
 			_animeRepository.Update(anime);
-			return RedirectToAction("Index");
+			return RedirectToAction("Detail", new { id = Id });
+		}
+		public async Task<IActionResult> Series(string options)
+		{
+			string[] arr = options.Split("__");
+			int number = 1, season = 1, Id=1;
+            /*try
+			{*/
+                number = int.Parse(arr[0]);
+				season = int.Parse(arr[1]);
+				Id = int.Parse(arr[2]);
+			/*}
+			catch(Exception ex)
+			{
+                return RedirectToAction("Detail", new { id = Id });
+            }*/
+            Anime anime = await _animeRepository.GetByIdAsync(Id);
+            Series series = new Series()
+			{
+				Season= season,
+				Number= number,
+				AnimeId = anime.Id,
+				VideoURL = anime.SeriesURL,
+			};
+            return View(series);
 		}
 	}
 }

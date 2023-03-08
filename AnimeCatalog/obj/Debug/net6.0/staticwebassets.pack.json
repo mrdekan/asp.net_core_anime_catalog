@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\img\\userWhite.png"
     },
     {
+      "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\js\\rating-button.js",
+      "PackagePath": "staticwebassets\\js\\rating-button.js"
+    },
+    {
       "Id": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

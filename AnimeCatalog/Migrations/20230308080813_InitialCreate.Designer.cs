@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnimeCatalog.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230307063511_InitialCreate")]
+    [Migration("20230308080813_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -48,6 +48,10 @@ namespace AnimeCatalog.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SeeasonsAndSeries")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SeriesURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jtjxYB3IOp9KJMZm7Kp/lIdrVuuNQMcKvUeRwQSv4to=",
+  "Hash": "5kKcknMT+KFQjQQwlavb0NDAl67RHBz7bZ+UN+36FkE=",
   "Source": "AnimeCatalog",
   "BasePath": "_content/AnimeCatalog",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\userWhite.png"
+    },
+    {
+      "Identity": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\js\\rating-button.js",
+      "SourceId": "AnimeCatalog",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\",
+      "BasePath": "_content/AnimeCatalog",
+      "RelativePath": "js/rating-button.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\rating-button.js"
     },
     {
       "Identity": "F:\\code\\ASP.NET Core\\asp.net_core_anime_catalog\\AnimeCatalog\\wwwroot\\js\\site.js",

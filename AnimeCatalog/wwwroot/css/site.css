@@ -338,7 +338,8 @@ footer a {
   border-radius: 20px;
   font-weight: 300;
 }
-.wrapper .line {
+
+.line {
   width: 100%;
   height: 2px;
   margin: 5px 0 10px;
@@ -512,6 +513,38 @@ h4 {
   flex-wrap: wrap;
   gap: 5px;
   margin-bottom: 15px;
+}
+
+.rating-block {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.35;
+  z-index: 100000;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.rating-block_content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+}
+.rating-block_content_buttons {
+  display: flex;
+  gap: 8px;
+}
+.rating-block_content_buttons a {
+  color: black;
+  font-size: 17px;
+}
+
+.active {
+  display: flex;
+  overflow: hidden;
 }
 
 .create-wrapper {

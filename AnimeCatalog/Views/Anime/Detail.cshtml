@@ -4,6 +4,19 @@
 *@
 @{
 }
+<div class="rating-block">
+	<div class="rating-block_content">
+		<h4>Rate this anime</h4>
+		<div class="line"></div>
+		<div class="rating-block_content_buttons">
+			@for (int i = 1; i <= 10; i++)
+			{
+				string temp = Model.Id.ToString() + "_" + i.ToString();
+				<a asp-controller="Anime" asp-action="Watched" asp-route-rate=@temp>@i</a>
+			}
+		</div>
+	</div>
+</div>
 <div class="wrapper">
 	<div class="info-block">
 		<div class="info-block_main">
@@ -14,7 +27,7 @@
 				<p>@Model.Description</p>
 				<div class="line"></div>
 				<p>@Model.Views</p>
-				<a asp-controller="Anime" asp-action="Watched" asp-route-id=@Model.Id>Watched</a>
+				<button id="watched">Watched</button>
 			</div>
 		</div>
 	</div>
@@ -32,21 +45,17 @@
 					}
 					<h4>Season @season</h4>
 				}
-				season++;
 				<div class="season">
 					@for (int i = 1; i <= int.Parse(element); i++)
 					{
-						<a href="#" class="series-button">Series @i</a>
+						string options = i.ToString() + "__" + season.ToString() + "__" + Model.Id.ToString();
+						<a asp-controller="Anime" asp-action="Series" asp-route-options=@options class="series-button">Series @i</a>
 					}
 				</div>
+				season++;
 			}
 		}
 	</div>
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
 </div>
+<script src="~/js/rating-button.js"></script>
 

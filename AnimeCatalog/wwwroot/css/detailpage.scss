@@ -1,30 +1,37 @@
-﻿.info-block{
-    & h3{
+﻿.info-block {
+    & h3 {
         font-size: 32px;
         font-weight: 400;
         margin-bottom: 10px;
     }
-    &_main{
+
+    &_main {
         display: flex;
-        &_right{
+
+        &_right {
             padding: 20px;
-            & p{
+
+            & p {
                 font-size: 16px;
                 line-height: 19px;
             }
-            & p::first-letter{
+
+            & p::first-letter {
                 margin-left: 15px;
             }
         }
     }
 }
-.series{
+
+.series {
     margin-top: 15px;
 }
+
 h4 {
     font-size: 18px;
     margin: 12px 0;
 }
+
 .series-button {
     padding: 7px;
     width: 80px;
@@ -34,9 +41,43 @@ h4 {
     color: black;
     border: 1px solid #25282e;
 }
-.season{
+
+.season {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;   
+    gap: 5px;
     margin-bottom: 15px;
+}
+
+.rating-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.35;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    &_content {
+        background-color: white;
+        padding: 30px;
+        border-radius: 30px;
+        &_buttons{
+            display: flex;
+            gap: 8px;
+            & a{
+                color: black;
+                font-size: 17px;
+            }
+        }
+    }
+    
+}
+.active {
+    display: flex;
+    overflow: hidden;
 }
