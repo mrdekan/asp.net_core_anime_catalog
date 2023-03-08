@@ -1,9 +1,4 @@
 ﻿@model Series
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
 <div class="wrapper">
 	<h3>Season: @Model.Season</h3>
 	<h4>Series: @Model.Number</h4>
@@ -11,20 +6,18 @@
 		<video src=@Model.VideoURL controls></video>
 	</div>
 	<div class="navigation">
-	@{
-		
-		string optionsNext = (Model.Number + 1).ToString() + "__" + Model.Season.ToString() + "__" + Model.AnimeId.ToString();
-		if (Model.Number != 1)
-		{
-			string optionsPrev = (Model.Number - 1).ToString() + "__" + Model.Season.ToString() + "__" + Model.AnimeId.ToString();
-			<a asp-controller="Anime" asp-action="Series" asp-route-options=@optionsPrev class="series-navigate">Previous (@(Model.Number - 1))</a>
+		@{
+			string optionsNext = (Model.Number + 1).ToString() + "__" + Model.Season.ToString() + "__" + Model.AnimeId.ToString();
+			if (Model.Number != 1)
+			{
+				string optionsPrev = (Model.Number - 1).ToString() + "__" + Model.Season.ToString() + "__" + Model.AnimeId.ToString();
+				<a asp-controller="Anime" asp-action="Series" asp-route-options=@optionsPrev class="series-navigate">Previous (@(Model.Number - 1))</a>
+			}
+			if (!Model.LastInSeason)
+			{
+				string optionsPrev = (Model.Number + 1).ToString() + "__" + Model.Season.ToString() + "__" + Model.AnimeId.ToString();
+				<a asp-controller="Anime" asp-action="Series" asp-route-options=@optionsPrev class="series-navigate">Next (@(Model.Number + 1))</a>
+			}
 		}
-		if (!Model.LastInSeason)
-		{
-			string optionsPrev = (Model.Number + 1).ToString() + "__" + Model.Season.ToString() + "__" + Model.AnimeId.ToString();
-			<a asp-controller="Anime" asp-action="Series" asp-route-options=@optionsPrev class="series-navigate">Next (@(Model.Number + 1))</a>
-		}
-
-	}
 	</div>
 </div>
