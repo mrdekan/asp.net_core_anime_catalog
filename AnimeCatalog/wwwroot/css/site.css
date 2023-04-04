@@ -377,6 +377,7 @@ footer a {
 .poster span {
   display: block;
   margin-top: 8px;
+  text-indent: 15px;
 }
 .poster .image {
   display: flex;
@@ -555,6 +556,7 @@ video {
   background-color: white;
   padding: 30px;
   border-radius: 30px;
+  opacity: 1;
 }
 .rating-block_content_buttons {
   display: flex;
