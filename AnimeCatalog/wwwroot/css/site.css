@@ -152,6 +152,15 @@ h1, h2, h3, h4, h5, h6 {
 .dark-mode .delete-tag_stick_r {
   background-color: white;
 }
+.dark-mode .create-wrapper {
+  background-color: #2f333b;
+}
+.dark-mode form {
+  background-color: #2f333b;
+}
+.dark-mode input {
+  background-color: #2f333b;
+}
 
 html {
   font-family: "Inter", sans-serif;
