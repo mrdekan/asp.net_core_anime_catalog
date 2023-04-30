@@ -41,6 +41,8 @@ namespace AnimeCatalog.Controllers
 			if (name==null)
 				return RedirectToAction("Index", "Home");
 			var animes = await _animeRepository.GetAnimeByName(name);
+			if (animes.Count() == 1)
+				return RedirectToAction("Detail", new { id = animes.ElementAt(0).Id });
 			AnimesBySearch animesByName = new AnimesBySearch();
 			animesByName.Animes = animes;
 			animesByName.SearchRequest = name;
